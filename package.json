@@ -1,0 +1,30 @@
+{
+	"name": "@electratype/agora",
+	"version": "0.0.1",
+	"private": false,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@directus/sdk": "^13.0.2",
+		"@mapbox/mapbox-gl-draw": "^1.4.3",
+		"@melt-ui/pp": "^0.1.4",
+		"@melt-ui/svelte": "^0.65.0",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.27.4",
+		"@turf/line-distance": "^4.7.3",
+		"autoprefixer": "^10.4.16",
+		"lucide-svelte": "^0.294.0",
+		"mapbox-gl-draw-circle": "^1.1.2",
+		"maplibre-gl": "^3.6.2",
+		"numeral": "^2.0.6",
+		"postcss": "^8.4.32",
+		"svelte": "^4.2.7",
+		"svelte-sequential-preprocessor": "^2.0.1",
+		"tailwindcss": "^3.3.6",
+		"vite": "^4.4.2"
+	},
+	"type": "module"
+}
