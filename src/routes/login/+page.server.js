@@ -1,8 +1,7 @@
-import { BACKEND_URL } from '$env/static/private';
-import { createDirectus, rest, login } from '@directus/sdk';
-import { fail, redirect } from '@sveltejs/kit';
+import { backend } from '../../lib/server/backend.js';
 
-const backend = createDirectus(BACKEND_URL).with(rest());
+import { login } from "@directus/sdk"
+import { redirect } from '@sveltejs/kit';
 
 export const actions = {
 
@@ -25,8 +24,9 @@ export const actions = {
 
 			successful = true;
 
-		} catch {
+		} catch (e) {
 			console.log("Err0r")
+			console.log(e)
 		}
 
 		if (successful) {

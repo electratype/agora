@@ -366,10 +366,6 @@
         border-radius: 10px;
     }
 
-    .maplibregl-canvas {
-        border-radius: 20px;
-    }
-
     .item {
         padding: theme("spacing.1");
         border-radius: theme("borderRadius.md");

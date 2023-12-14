@@ -26,3 +26,7 @@ body {
     font-family: "Inter";
 }
 
+.maplibregl-canvas {
+    border-radius: 20px;
+}
+
