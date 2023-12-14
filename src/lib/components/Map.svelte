@@ -77,7 +77,7 @@
                     "bayern-luftbild": {
                         type: "raster",
                         tiles: [
-                            "https://mapproxy.karlislab.com/wmts/bayern-luftbild/GLOBAL_MERCATOR/{z}/{x}/{y}.png",
+                            "https://wmtsod1.bayernwolke.de/wmts/by_dop/smerc/{z}/{x}/{y}",
                         ],
                         tileSize: 256,
                         attribution: "",
