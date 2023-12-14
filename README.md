@@ -5,3 +5,7 @@
 User interface is built using Svelte and [Melt UI](https://melt-ui.com/).
 
 This project is currently under active development and in no way, shape or form stable and ment for production use.
+
+## Screenshots
+
+![Map](./docs/screenshots/map.png)
